@@ -1,0 +1,10 @@
+Package: fileR
+Title: fileR
+Description: Utilities for files and data set structures
+Version: 0.1
+Author: maloneypatr@gmail.com
+Depends:
+    XLConnect,
+    plyr
+License: MIT License
+LazyData: true
