@@ -1,10 +1,18 @@
 Package: fileR
 Title: fileR
-Description: Utilities for files and data set structures
-Version: 0.1
-Author: maloneypatr@gmail.com
+Description: Utilities for exploring and exporting R data sets
+Author: Patrick Maloney
+Maintainer: maloneypatr@gmail.com
 Depends:
     XLConnect,
     plyr
 License: MIT License
 LazyData: true
+Collate:
+    'listToXL.R'
+    'defineVars.R'
+    'listNames.R'
+    'listUniques.R'
+    'rgbx.R'
+    'xlFile.R'
+    'csvFile.R'
