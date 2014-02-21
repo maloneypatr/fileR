@@ -1,8 +1,8 @@
-dfToXL <- function(df, variables, outputFile){
+df_xl <- function(df, .variables, outputFile){
   require(plyr)
   require(XLConnect)
   
-  list <- dlply(df, variables)
+  list <- dlply(df, .variables)
   
   wb <- loadWorkbook(outputFile, create = T)
   

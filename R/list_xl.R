@@ -1,4 +1,4 @@
-listToXL <- function(list, outputFile){
+list_xl <- function(list, outputFile){
   require(plyr)
   require(XLConnect)
   
