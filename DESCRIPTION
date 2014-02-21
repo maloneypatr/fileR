@@ -10,7 +10,8 @@ License: GPL
 Depends:
     XLConnect, plyr
 Collate:
-    'listToXL.R'
+    'list_xl.R'
+    'df_xl.R'
     'listNames.R'
     'listUniques.R'
     'rgbx.R'
