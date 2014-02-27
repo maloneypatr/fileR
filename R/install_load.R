@@ -1,4 +1,4 @@
-checkInstall <- function (package1, ...) 
+install_load <- function (package1, ...) 
 {
   packages <- c(package1, ...)
   
