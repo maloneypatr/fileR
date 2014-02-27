@@ -1,11 +1,17 @@
-install_load <- function(package1, ...){
-  
+checkInstall <- function (package1, ...) 
+{
   packages <- c(package1, ...)
   
   for(package in packages){
-    install.packages(package)
-    packageName <- paste(package)
-    do.call("library", list(packageName))
+    
+    if(package %in% rownames(installed.packages()))
+      do.call('library', list(package))
+    
+    else {
+      install.packages(package)
+      do.call("library", list(package))
+    }
+    
   }
   
 }
