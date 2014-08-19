@@ -18,3 +18,7 @@ Collate:
     'xlFile.R'
     'csvFile.R'
     'install_load.R'
+    'fileName.R'
+    'hijack.R'
+    'ht.R'
+    'inf_na_zero.R'
